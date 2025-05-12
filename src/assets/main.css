@@ -1,1 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap');
 @import 'tailwindcss';
+
+@theme {
+  --font-special-elite: "Special Elite", system-ui;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  src: local('Times New Roman');
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+}
+
+/* Minimal scrollbar styles */
+tbody::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+tbody::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+tbody::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+tbody::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
